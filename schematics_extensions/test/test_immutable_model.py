@@ -30,6 +30,6 @@ class ImmutabilityErrorTest(unittest.TestCase):
     def test_error_messasge(self):
         error = ImmutabilityError(ModelForTesting(), 'the_key', 'the_value')
 
-        self.assertRegexpMatches(error.message, r"'the_value'")
-        self.assertRegexpMatches(error.message, r"'the_key'")
-        self.assertRegexpMatches(error.message, r"ModelForTesting")
+        self.assertRegexpMatches(error.args[0], r"'the_value'")
+        self.assertRegexpMatches(error.args[0], r"'the_key'")
+        self.assertRegexpMatches(error.args[0], r"ModelForTesting")

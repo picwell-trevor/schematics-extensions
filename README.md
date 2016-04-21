@@ -3,6 +3,22 @@
 Adds new functionality to [Schematics models](https://github.com/schematics/schematics)
 
 
+## Testing
+
+This module is Python 3 compatible. To run the tests for both architectures,
+first install Python 3:
+
+    $ brew install python3
+
+Then install tox system-wide once:
+
+    $ pip install tox
+
+To run the tests:
+
+    $ tox
+
+
 # Mockable ModelType and ListType
 
 Schematics has a really useful `get_mock_object` function.

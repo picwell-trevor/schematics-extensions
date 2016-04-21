@@ -42,7 +42,7 @@ class OverridesTest(unittest.TestCase):
             "string_field": "foobar",
             "float_field": 3.14,
             "boolean_field": True,
-            "long_field_is_long": 42L,
+            "long_field_is_long": 42,
             "dict_field": {"foo": "bar"},
             "list_field": ["moe", "larry", "curly"],
             "model_field": SimpleModel.get_mock_object(
@@ -59,7 +59,7 @@ class OverridesTest(unittest.TestCase):
         self.assertEqual(self.null_model.string_field, "foobar")
         self.assertEqual(self.null_model.float_field, 3.14)
         self.assertEqual(self.null_model.boolean_field, True)
-        self.assertEqual(self.null_model.long_field_is_long, 42L)
+        self.assertEqual(self.null_model.long_field_is_long, 42)
         self.assertEqual(self.null_model.dict_field["foo"], "bar")
         self.assertEqual(self.null_model.list_field, ["moe", "larry", "curly"])
         self.assertEqual(self.null_model.model_field.string_field, "foo")
