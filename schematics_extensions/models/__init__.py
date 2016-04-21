@@ -45,3 +45,6 @@ class Model(Model):
 
     def __repr__(self):
         return "{}({!r})".format(self.__class__.__name__, self._data)
+
+    def __hash__(self):
+        return id(self)
