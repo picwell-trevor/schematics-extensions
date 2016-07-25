@@ -3,8 +3,7 @@
 from distutils.core import setup
 
 requirements = [
-    'schematics<=1.0.2',
-    'six',
+    'schematics==1.1.1',
 ]
 
 setup(name='schematics-extensions',
