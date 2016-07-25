@@ -1,5 +1,7 @@
 # schematics-extensions [![Build Status](https://travis-ci.org/picwell/schematics-extensions.svg?branch=master)](https://travis-ci.org/picwell/schematics-extensions)
 
+[![Requirements Status](https://requires.io/github/picwell/schematics-extensions/requirements.svg?branch=master)](https://requires.io/github/picwell/schematics-extensions/requirements/?branch=master)
+
 Adds new functionality to [Schematics models](https://github.com/schematics/schematics)
 
 
