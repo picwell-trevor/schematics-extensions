@@ -1,0 +1,3 @@
+setup.cfg
+setup.py
+recursive-include schematics_extensions *
