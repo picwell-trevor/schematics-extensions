@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from distutils.core import setup, find_packages
 
 requirements = [
     'schematics==1.1.1',
@@ -12,5 +12,5 @@ setup(name='schematics-extensions',
       author='Picwell',
       author_email='dev@picwell.com',
       url='http://github.com/picwell/schematics-extensions',
-      packages=['schematics_extensions'],
+      packages=find_packages(),
       install_requires=requirements)
