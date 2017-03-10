@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup, find_packages
+from setuptools import setup, find_packages
 
 requirements = [
     'schematics==1.1.1',
