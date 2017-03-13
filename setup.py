@@ -13,6 +13,6 @@ setup(
     author='Picwell',
     author_email='dev@picwell.com',
     url='http://github.com/picwell/schematics-extensions',
-    packages=find_packages(),
+    packages=find_packages(exclude=['*.test']),
     install_requires=requirements
 )
